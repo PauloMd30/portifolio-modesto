@@ -3,21 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Paulo Modesto - Desenvolvedor Backend. Conheça meus projetos, certificados e entre em contato."
+    />
+    <meta name="author" content="Paulo Modesto da Silva" />
+    <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <title>Portifólio</title>
+    <title>Portfólio | Paulo Modesto</title>
   </head>
   <body>
     <header class="header">
       <a href="#home" class="logo">Paulo <span>Modesto</span></a>
-      <i class="bx bx-menu" id="menu-icon"></i>
+      <i class="bx bx-menu" id="menu-icon" aria-label="Abrir menu"></i>
       <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#sobre">Sobre</a>
         <a href="#projeto">Projetos</a>
+        <a href="#certificado">Meus Certificados</a>
         <a href="#contato">Contato</a>
       </nav>
     </header>
@@ -27,23 +34,34 @@
         <h2>Olá, eu sou</h2>
         <h3>Paulo Modesto</h3>
         <p>
-          Estudante de Análise e Desenvolvimento de Sistemas, com conhecimento
-          básico em NodeJs, Express, MongoDB, MySQL, HTML, CSS, JavaScript, Git,
-          GitHub, Windows, conhecimento em desenvolvimento de API, REST, CRUD e
-          MVC.Estou em busca de uma oportunidade para desenvolver e aprimorar
-          meus conhecimentos.
+          Sou formado em Análise e Desenvolvimento de Sistemas, com experiência
+          prática em desenvolvimento de aplicações web utilizando Django,
+          Node.js e Express. Tenho conhecimento básico em bancos de dados como
+          MongoDB e MySQL, além de habilidades com HTML, CSS, JavaScript, Git e
+          GitHub. Busco oportunidades para aplicar meus conhecimentos em
+          projetos reais e continuar evoluindo como desenvolvedor backend.
         </p>
         <div class="social-icons">
-          <a href="https://github.com/PauloMd30" title="GitHub"
+          <a
+            href="https://github.com/PauloMd30"
+            title="GitHub"
+            target="_blank"
+            rel="noopener"
             ><i class="bx bxl-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/paulo-modesto-silva"
             title="LinkedIn"
+            target="_blank"
+            rel="noopener"
             ><i class="bx bxl-linkedin"></i
           ></a>
 
-          <a class="whatsapp-link" title="WhatsApp"
+          <a
+            class="whatsapp-link"
+            title="WhatsApp"
+            target="_blank"
+            rel="noopener"
             ><i class="bx bxl-whatsapp"></i
           ></a>
         </div>
@@ -52,27 +70,32 @@
         </div>
       </div>
       <div class="home-img">
-        <img src="image/foto.png" alt="" />
+        <img src="image/foto.png" alt="Foto de Paulo Modesto" loading="lazy" />
       </div>
     </section>
 
     <section class="sobre" id="sobre">
       <div class="sobre-img">
-        <img src="image/foto.png" alt="" class="imagem-mobile-hide" />
+        <img
+          src="image/foto.png"
+          alt="Paulo Modesto"
+          class="imagem-mobile-hide"
+          loading="lazy"
+        />
       </div>
       <div class="sobre-content">
         <h2>Sobre <span>Mim</span></h2>
         <h3>Desenvolvedor <span>Backend</span></h3>
         <p>
           Sou Paulo Modesto da Silva, tenho 30 anos, moro em Carapicuíba (SP) e
-          atualmente estou em transição de carreira para a área de tecnologia,
-          estudo Análise e Desenvolvimento de Sistemas. Busco uma oportunidade
-          como desenvolvedor backend júnior, onde eu possa colocar em prática o
-          que venho estudando e continuar evoluindo como profissional. Sou uma
-          pessoa tranquila, paciente, comprometida e com grande interesse em
-          aprender com os desafios do dia a dia. Acredito no poder da tecnologia
-          para transformar vidas e processos. Me motiva saber que posso criar
-          soluções que tornem o dia a dia das pessoas mais fácil e eficiente.
+          sou formado em Análise e Desenvolvimento de Sistemas. Após uma
+          transição de carreira para a área de tecnologia, venho me dedicando ao
+          desenvolvimento backend, com foco em aplicar meus conhecimentos em
+          projetos reais e continuar evoluindo como profissional. Sou uma pessoa
+          tranquila, paciente, comprometida e com grande interesse em aprender
+          com os desafios do dia a dia. Acredito no poder da tecnologia para
+          transformar vidas e processos, e me motiva saber que posso criar
+          soluções que tornem o cotidiano das pessoas mais fácil e eficiente.
         </p>
         <a href="#projeto" class="btn">Meus Projetos</a>
       </div>
@@ -90,7 +113,6 @@
               Esta aplicação foi desenvolvida com Python (Flask) e tem como
               objetivo gerenciar produtos com base em sua validade, oferecendo
               funcionalidades automatizadas de controle e notificação.
-              <br />
               Funcionalidades principais: Cadastro, edição, listagem e exclusão
               de produtos com campos como nome, marca, código de barras e data
               de validade. Interface web integrada usando templates Jinja2 para
@@ -103,6 +125,8 @@
             <a
               href="https://gestao-de-produtos.onrender.com/"
               class="projeto-link"
+              target="_blank"
+              rel="noopener"
             >
               Acesse o Projeto</a
             >
@@ -135,6 +159,8 @@
             <a
               href="https://github.com/PauloMd30/portal_noticias"
               class="projeto-link"
+              target="_blank"
+              rel="noopener"
             >
               Repositório do Git</a
             >
@@ -143,8 +169,132 @@
       </div>
     </section>
 
+    <section id="certificado">
+      <h1 class="heading">Meus Certificados</h1>
+
+      <div class="meus-certificados blocks-container">
+        <div class="image-block">
+          <h2 class="block-title">Programação de Algoritmos Escaláveis</h2>
+          <div class="image-container">
+            <img
+              src="image/certificado2.png"
+              alt="Certificado de Programação de Algoritmos Escaláveis"
+              loading="lazy"
+            />
+          </div>
+          <a
+            href="doc/Programação-de-Algoritmo-Escalaveis.pdf"
+            class="image-link"
+            target="_blank"
+            >Ver Certificado</a
+          >
+        </div>
+        <div class="image-block">
+          <h2 class="block-title">Programação de Sistema de Informação</h2>
+          <div class="image-container">
+            <img
+              src="image/certificado1.png"
+              alt="Certificado de Programação de Sistema de Informação"
+              loading="lazy"
+            />
+          </div>
+          <a
+            href="doc/Programação-de-Sistema-de-Informação.pdf"
+            class="image-link"
+            target="_blank"
+            >Ver Certificado</a
+          >
+        </div>
+        <div class="image-block">
+          <h2 class="block-title">Programação para Internet</h2>
+          <div class="image-container">
+            <img
+              src="image/certificado3.png"
+              alt="Certificado de Programação para Internet"
+              loading="lazy"
+            />
+          </div>
+          <a
+            href="doc/Programação-para-Internet.pdf"
+            class="image-link"
+            target="_blank"
+            >Ver Certificado</a
+          >
+        </div>
+        <div class="image-block">
+          <h2 class="block-title">Programação para Dispositivos Móveis</h2>
+          <div class="image-container">
+            <img
+              src="image/certificado4.png"
+              alt="Certificado de Programação para Dispositivos Móveis"
+              loading="lazy"
+            />
+          </div>
+          <a
+            href="doc/Programação-para-Dispositivos-Moveis.pdf"
+            class="image-link"
+            target="_blank"
+            >Ver Certificado</a
+          >
+        </div>
+        <div class="image-block">
+          <h2 class="block-title">
+            Desenvolvimento Rápido de Aplicações em Python para Cloud, IoT e
+            BigData
+          </h2>
+          <div class="image-container">
+            <img
+              src="image/certificado5.png"
+              alt="Desenvolvimento Rápido de Aplicações em Python para Cloud, IoT e BigData"
+              loading="lazy"
+            />
+          </div>
+          <a
+            href="doc/Desenvolvimento-Rapido-em-Python-Iot.pdf"
+            class="image-link"
+            target="_blank"
+            >Ver Certificado</a
+          >
+        </div>
+        <div class="image-block">
+          <h2 class="block-title">Desenvolvedor NodeJs e MongoDb</h2>
+          <div class="image-container">
+            <img
+              src="image/certificado6.jpeg"
+              alt="Certificado de Desenvolvedor NodeJs e MongoDb"
+              loading="lazy"
+            />
+          </div>
+          <a
+            href="doc/Certificado-Nodejs.pdf"
+            class="image-link"
+            target="_blank"
+            >Ver Certificado</a
+          >
+        </div>
+        <div class="image-block">
+          <h2 class="block-title">
+            Curso de Python-3 do básico ao avançado com projetos reais
+          </h2>
+          <div class="image-container">
+            <img
+              src="image/certificado7.png"
+              alt="Certificado Curso de Python-3 do básico ao avançado com projetos reais"
+              loading="lazy"
+            />
+          </div>
+          <a
+            href="doc/Curso-de-Python-3-do-básico-ao-avançado-com-projetos-reais.pdf"
+            class="image-link"
+            target="_blank"
+            >Ver Certificado</a
+          >
+        </div>
+      </div>
+    </section>
+
     <section class="contact" id="contato">
-      <h2 class="heading">Contrate <span>Me</span></h2>
+      <h2 class="heading">Entre em <span>Contato</span></h2>
 
       <form
         class="contact-form"
@@ -217,15 +367,21 @@
 
     <footer class="footer">
       <div class="social">
-        <a href="https://github.com/PauloMd30" title="GitHub"
+        <a
+          href="https://github.com/PauloMd30"
+          title="GitHub"
+          target="_blank"
+          rel="noopener"
           ><i class="bx bxl-github"></i
         ></a>
         <a
           href="https://www.linkedin.com/in/paulo-modesto-silva"
           title="LinkedIn"
+          target="_blank"
+          rel="noopener"
           ><i class="bx bxl-linkedin"></i>
         </a>
-        <a class="whatsapp-link" title="WhatsApp"
+        <a class="whatsapp-link" title="WhatsApp" target="_blank"
           ><i class="bx bxl-whatsapp"></i
         ></a>
       </div>
